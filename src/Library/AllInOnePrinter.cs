@@ -8,6 +8,14 @@ using System.IO;
 
 namespace Full_GRASP_And_SOLID.Library
 {
+
+    /*
+    ---------------------------------------------------------------------------------------------
+    AllInOnePrinter tiene 2 resposabilidades hacer Print en consola y en un archivo...
+    deberia de dividir el cs en 2 cs´s uno de consola y otro de archivo con una interfaz IPrinter
+    ---------------------------------------------------------------------------------------------
+    */
+
     public enum Destination
     {
         Console,
